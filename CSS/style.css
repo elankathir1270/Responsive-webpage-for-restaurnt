@@ -1,0 +1,181 @@
+:root{
+    --yellow: rgb(255, 157, 0);
+    --black: black;
+    --brown: rgb(165, 42, 42);
+    --green: rgba(98, 170, 102, 0.699);
+}
+
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.landing{
+    background-image: url(../Media/hbg2.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    font-weight: bolder;
+
+}
+header a{
+    text-decoration: none;
+    color: var(--brown);
+}
+header{
+    display: flex;
+    padding: 25px;
+    flex-wrap: wrap;
+    
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    flex:3;
+    
+}
+.name{
+    font-size: 2.5rem;
+}
+
+nav{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    
+}
+nav a:hover{
+    color: var(--brown);
+}
+nav a{
+    color: var(--black);
+    font-size: 1.2em;
+    min-width: 120px;
+    margin-top: 1em;
+    
+    
+  
+}
+nav a i{
+    margin-right: .5em;
+}
+.menu{
+    flex: 1;
+    padding-left: 10px;
+}
+.location{
+    flex: 1;
+    padding-left: 10px;
+}
+
+.taglines{
+
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+}
+.mtag{
+    font-size: 2.5rem;
+    padding-top: 10vh;
+    
+ }
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 50px;
+    
+}
+.footer div{
+    padding-bottom: 10px;
+}
+
+
+
+.online button{
+    width: 330px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1em;
+    background-color: var(--green);
+    border-color: var(--green);
+    color: var(--black)
+    
+    
+}
+
+.menus{
+    display: grid;
+    background:linear-gradient(to right, rgb(246, 242, 242),rgb(102, 162, 102));
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
+}
+.at12{
+    grid-row:span 2;
+}
+.menuheading{
+    background:linear-gradient(to right, rgb(246, 242, 242), rgb(102, 162, 102));
+ 
+
+}
+.menuheading,.locations{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.distick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../Media/hbg2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    
+}
+
+
+th{
+    color: var(--brown);
+    padding-bottom: 5px;
+    font-size: 1.2em;
+    
+   
+}
+.distick h3{
+    display: flex;
+    justify-content: center;
+    color: var(--brown);
+    width: 300px;
+}
+.distick p{
+    display: flex;
+    justify-content: center;
+    width: 320px;
+}
+
+.menus tr{
+    display: flex;
+    justify-content:center;
+}
+.menus td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menus td:nth-child(){
+    justify-self: right;
+}
+footer{
+    background:linear-gradient(to right, rgb(246, 242, 242) 1%, rgb(102, 162, 102)90%);
+    padding: .25em .5rem;
+}
+
